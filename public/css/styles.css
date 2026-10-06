@@ -314,6 +314,10 @@ h1 .accent {
   font-size: 0.95rem;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 .draft-note {
   max-width: 42rem;
   margin: 0 0 1.5rem;
