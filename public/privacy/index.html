@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · DNA Gym AI</title>
+  <meta name="description" content="Privacy Policy for DNA Gym AI. How the app handles account, training and optional Apple Health or Health Connect data.">
+  <link rel="canonical" href="https://dnagymai.com/privacy">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:site_name" content="DNA Gym AI">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Privacy Policy · DNA Gym AI">
+  <meta property="og:description" content="How DNA Gym AI handles account, training and optional health data.">
+  <meta property="og:url" content="https://dnagymai.com/privacy">
+  <meta property="og:image" content="https://dnagymai.com/assets/og.png">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/assets/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/">
+        <img src="/assets/logo-dna-gym-ai.png" width="558" height="220" alt="DNA Gym AI">
+      </a>
+      <nav aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="/">Home</a></li>
+          <li><a href="/privacy" aria-current="page">Privacy</a></li>
+          <li><a href="/terms">Terms</a></li>
+          <li><a href="/health-disclaimer">Health &amp; Fitness</a></li>
+          <li><a href="/support">Support</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="page">
+    <div class="wrap">
+      <div class="page-intro">
+        <p class="meta">DNA Gym AI</p>
+        <h1>Privacy Policy</h1>
+        <p class="meta">Last updated 6 October 2026 · Version 2026-10-06</p>
+      </div>
+      <div class="draft-note">
+        <p>Product draft. Not legal advice and not represented as lawyer-reviewed. Version 2026-10-06. The same draft is shown in the app. This website publishes <a href="mailto:support@dnagymai.com">support@dnagymai.com</a> as the support contact. The in-app draft may still say that a support address is not configured.</p>
+      </div>
+      <article class="prose">
+        <p>This draft describes what the DNA Gym AI app does with information, based on the current product. It has not been legally reviewed.</p>
+        <h2>Information you provide</h2>
+        <p>The app can store the email address and password you use to create an account, your name, date of birth, sex, training goal, units, and body measurements you enter (such as weight, height, body fat and related measurements). Workout sessions, sets, reps, loads, exercise notes, custom workouts, programs and cardio sessions you log are stored for your account.</p>
+        <h2>Sign-in providers</h2>
+        <p>Email and password accounts are handled by Supabase Auth. On iPhone the app can also offer Sign in with Apple. Google sign-in is offered where that provider is configured. The app receives the identity those providers return so it can keep your account and training data together.</p>
+        <h2>Health data</h2>
+        <p>On iPhone, if you connect Apple Health, DNA Gym AI can read body weight, body fat percentage, height, heart rate, active energy and workouts. On Android, if you connect Health Connect, it can read weight, body fat, height, heart rate, active calories and exercise sessions. The app uses those reads to fill measurements you choose to import and to attach energy or cardio to training when the data is available. Health data is stored with your account in Supabase and on the device. It is not sold and it is not used for advertising. It is not sent to a separate AI service. Programs are generated on the device from the exercise library.</p>
+        <h2>Invitations and email</h2>
+        <p>An invitation administrator can prepare an account for an email address. A newly prepared account receives a temporary password in an email sent from DNA Gym AI by a server-side Resend function. That password is not stored in the app's database. Existing accounts are not given a new password. Password reset and signup confirmation emails are sent by Supabase Auth through its configured mail provider.</p>
+        <h2>Where data is processed</h2>
+        <p>Account and training data are stored in Supabase. Exercise demonstration media may be loaded from a Cloudflare R2 address configured for the app. Invitation email is sent through Resend from the server, not from the phone. The app does not include a third-party analytics or advertising SDK in the current source.</p>
+        <h2>Retention and deletion</h2>
+        <p>Data remains until you delete it in the app or delete your account. Delete account, in the signed-in Account section, asks the server to delete the signed-in Auth user. Related profile, workout, program, measurement, cardio, health-connection and entitlement rows are removed by database cascade. A copy can remain on a device until that device signs out and clears local data, which the delete action also requests. Invitation records created for other people are not a copy of your workouts.</p>
+        <h2>Your choices</h2>
+        <p>You can sign out, disconnect Apple Health or Health Connect, decline those permissions, and delete your account. You can choose not to enter optional measurements.</p>
+        <h2>Contact</h2>
+        <p>For privacy questions, email <a href="mailto:support@dnagymai.com">support@dnagymai.com</a>. Do not send personal information to noreply@dnagymai.com.</p>
+      </article>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="footer-brand">DNA Gym AI</p>
+      <p class="footer-tagline">Train smarter. Be a stronger you.</p>
+      <ul class="footer-links">
+        <li><a href="/privacy" aria-current="page">Privacy Policy</a></li>
+        <li><a href="/terms">Terms of Use</a></li>
+        <li><a href="/health-disclaimer">Health &amp; Fitness Disclaimer</a></li>
+        <li><a href="/support">Support</a></li>
+      </ul>
+      <p class="copy">© 2026 DNA Gym AI</p>
+    </div>
+  </footer>
+</body>
+</html>
